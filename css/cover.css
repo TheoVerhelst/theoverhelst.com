@@ -95,25 +95,11 @@ main {
   color: rgba(0, 0, 0, .5);
 }
 
-
-.my-btn-social {
-    color: #fff
-}
-
-
 /*
  * Others
  */
 .card {
     margin-bottom: 15px
-}
-
-.btn-vimeo .fab, .btn-linkedin .fab {
-    color: #fff
-}
-
-.btn-reddit {
-    color: #000
 }
 
 .bd-placeholder-img {
