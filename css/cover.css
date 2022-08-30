@@ -20,7 +20,12 @@ main {
     margin-bottom: 30px;
 }
 
-h2, .card-title, .card-subtitle {
+h2 {
+    font-family: Times, serif;
+    font-weight: 400;
+}
+
+.card-title, .card-subtitle {
     font-weight: 400;
 }
 
