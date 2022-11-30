@@ -1,5 +1,21 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url(../fonts/Nunito.ttf);
+}
+
+
 /* Main */
+
 html, body {
+    font-family: Nunito, Verdana, sans-serif;
     height: 100%;
     background-color: #f4f4f6;
 }
@@ -15,18 +31,8 @@ body {
 }
 
 main {
-    font-weight: 400;
     margin-top: 30px;
     margin-bottom: 30px;
-}
-
-h2 {
-    font-family: Times, serif;
-    font-weight: 400;
-}
-
-.card-title, .card-subtitle {
-    font-weight: 400;
 }
 
 .bd-placeholder-img {
@@ -37,16 +43,28 @@ h2 {
     width:100%;
 }
 
-/* Header */
-@font-face {
-    font-family: "Cormorant Garamond";
-    src: url(../fonts/CormorantGaramond-Regular.ttf);
+h1, h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
 }
+
+
+/* Cards */
+
+.card-title, .card-subtitle {
+    font-weight: 500;
+}
+
+.card {
+    border-width: 0px;
+}
+
+/* Header */
 
 .masthead-brand {
     font-family: "Cormorant Garamond", Times, serif;
-    font-weight: bold;
-    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 28pt;
 }
 
 .nav-masthead .nav-link {
@@ -79,23 +97,28 @@ h2 {
     }
 }
 
+
 /* Cover */
+
 .cover {
     padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
     padding: .75rem 1.25rem;
 }
 
 
 /* Footer */
+
 .mastfoot {
     color: rgba(0, 0, 0, .5);
 }
 
+
 /* Custom default button */
+
 .btn-secondary,
-.btn-secondary:hover,
 .btn-secondary:focus {
     color: #000;
     background-color: #fff;
