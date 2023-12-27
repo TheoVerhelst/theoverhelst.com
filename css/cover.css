@@ -23,6 +23,14 @@ body {
     width:100%;
 }
 
+.bd-placeholder-img-white {
+    background-image: url("../images/bg_white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+}
+
 .cover-container {
     max-width: 42em;
     min-height: 100%;
@@ -49,6 +57,15 @@ h1, h2 {
 
 .card {
     border-width: 0px;
+    padding-top: 0px;
+}
+
+.card-body {
+  padding: 9px 15px;
+}
+
+.card .venue {
+  font-style: italic;
 }
 
 /* Header */
@@ -114,4 +131,26 @@ h1, h2 {
     color: #000;
     background-color: #fff;
     border: .05rem solid #fff;
+}
+
+/* CV list items */
+#cv-list dt {
+  margin-top: 20px;
+  margin-bottom: -8px;
+}
+
+#cv-list .cv-title {
+  float:left;
+}
+
+#cv-list hr {
+  border-top: 1px solid #bbb;
+  margin-left: 10px;
+}
+
+#cv-list .cv-rule {
+ display: block;
+ position:relative;
+ bottom:4px;
+ overflow: hidden;
 }
