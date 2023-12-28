@@ -61,7 +61,7 @@ h1, h2 {
 }
 
 .card-body {
-  padding: 9px 15px;
+  padding: 12px 15px;
 }
 
 .card .venue {
@@ -76,7 +76,9 @@ h1, h2 {
 }
 
 .nav-masthead .nav-link {
-    padding: .2rem 0;
+    padding: .2rem 0px;
+    margin: 0px 6px;
+    font-size:14pt;
     color: black;
     background-color: transparent;
     border-bottom: .2rem solid transparent;
