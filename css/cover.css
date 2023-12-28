@@ -73,6 +73,7 @@ h1, h2 {
 .masthead-brand {
     font-family: "Libertinus Display", Times, serif;
     font-size: 28pt;
+    text-align: center;
 }
 
 .nav-masthead .nav-link {
