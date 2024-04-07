@@ -40,7 +40,7 @@ body {
 /* Page content */
 
 main {
-    margin: 30px 0px;
+    padding: 30px 0px;
 }
 
 h1, h2 {
@@ -110,10 +110,6 @@ h1, h2 {
 
 
 /* Cover */
-
-.cover {
-    padding: 0 1.5rem;
-}
 
 .cover .btn-lg {
     padding: .75rem 1.25rem;
