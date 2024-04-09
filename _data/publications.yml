@@ -1,0 +1,172 @@
+- title: "Causal and predictive modeling of customer churn: lessons learned from empirical and theoretical research"
+  authors: Théo Verhelst, supervised by Gianluca Bontempi
+  venue: Université Libre de Bruxelles
+  type: PhD thesis
+  year: 2024
+  links:
+    - url: "/assets/documents/theo_verhelst_phd_thesis.pdf"
+      name: PDF
+  bibkey: verhelst2024causal
+  bibtex: |
+    @thesis{verhelst2024causal,
+      type = {phdthesis},
+      title = {Causal and Predictive Modeling of Customer Churn: Lessons Learned from Empirical and Theoretical Research},
+      shorttitle = {Causal and Predictive Modeling of Customer Churn},
+      author = {Verhelst, Théo},
+      date = {2024-01},
+      institution = {{Université libre de Bruxelles}},
+      location = {{Bruxelles}},
+      pagetotal = {225}
+    }
+
+
+- title: "Uplift vs. predictive modeling: a theoretical analysis"
+  authors: Théo Verhelst, Robin Petit, Wouter Verbeke, Gianluca Bontempi
+  type: Preprint
+  year: 2023
+  links:
+    - url: "https://arxiv.org/abs/2309.12036"
+      name: arXiv
+  bibkey: verhelst2023uplift
+  bibtex: |
+    @misc{verhelst2023uplift,
+      title={Uplift vs. predictive modeling: a theoretical analysis},
+      author={Verhelst, Théo and Petit, Robin and Verbeke, Wouter and Bontempi, Gianluca},
+      year={2023},
+      eprint={2309.12036},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+    }
+
+- title: "A churn prediction dataset from the telecom sector: a new benchmark for uplift modeling"
+  authors: Théo Verhelst, Denis Mercier, Jeevan Shrestha, Gianluca Bontempi
+  type: Conference paper
+  venue: "ECML PKDD 2023 Workshops - Workshop on Uplift Modeling and Causal Machine Learning for Operational Decision Making"
+  year: 2023
+  links:
+    - url: "https://upliftworkshop.ipipan.waw.pl/"
+      name: Workshop page
+    - url: "https://arxiv.org/abs/2312.07206"
+      name: arXiv
+  bibkey: verhelst2023churn
+  bibtex: |
+    @misc{verhelst2023churn,
+      title={A churn prediction dataset from the telecom sector: a new benchmark for uplift modeling},
+      author={Verhelst, Théo and Mercier, Denis and Shrestha, Jeevan and Bontempi, Gianluca},
+      year={2023},
+      eprint={2312.07206},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+    }
+
+- title: "Partial counterfactual identification and uplift modeling: theoretical results and real-world assessment"
+  authors: Théo Verhelst, Denis Mercier, Jeevan Shrestha, Gianluca Bontempi
+  type: Journal paper
+  venue: Machine Learning
+  year: 2023
+  links:
+    - url: "https://doi.org/10.1007/s10994-023-06317-w"
+      name: Full paper
+    - url: "https://rdcu.be/c7DCW"
+      name: Read-only full text
+    - url: "https://arxiv.org/abs/2211.07264"
+      name: arXiv
+  bibkey: verhelst2023partial
+  bibtex: |
+    @article{verhelst2023partial,
+      title={Partial counterfactual identification and uplift modeling: theoretical results and real-world assessment},
+      author={Verhelst, Th{\'e}o and Mercier, Denis and Shrestha, Jeevan and Bontempi, Gianluca},
+      journal={Machine Learning},
+      pages={1--25},
+      year={2023},
+      publisher={Springer}
+    }
+
+
+- title: "Predicting reach to find persuadable customers: improving uplift models for churn prevention"
+  authors: Théo Verhelst, Denis Mercier, Jeevan Shrestha, Jean-Christophe Dewitte, Gianluca Bontempi
+  type: Conference paper
+  venue: 24th International Conference on Discovery Science
+  year: 2021
+  links:
+    - url: https://link.springer.com/chapter/10.1007/978-3-030-88942-5_4
+      name: Full paper
+  bibkey: verhelst2021predicting
+  bibtex: |
+    @InProceedings{verhelst2021predicting
+      author={Verhelst, Th{\'e}o and Shrestha, Jeevan and Mercier, Denis and Dewitte, Jean-Christophe and Bontempi, Gianluca},
+      editor={Soares, Carlos and Torgo, Luis},
+      title="Predicting Reach to Find Persuadable Customers: Improving Uplift Models for Churn Prevention",
+      booktitle="Discovery Science",
+      year="2021",
+      publisher="Springer International Publishing",
+      address="Cham",
+      pages="44--54",
+      isbn="978-3-030-88942-5"
+    }
+
+- title: "Transfer learning strategies for credit card fraud detection"
+  authors: Bertrand Lebichot, Théo Verhelst, Yann-Aël Le Borgne, Liyun He-Guelton, Frédéric Oblé, Gianluca Bontempi
+  type: Journal paper
+  venue: IEEE Access
+  year: 2021
+  links:
+    - url: "https://doi.org/10.1109/ACCESS.2021.3104472"
+      name: Full paper
+  bibkey: lebichot2021transfer
+  bibtex: |
+    @article{lebichot2021transfer,
+      author={Lebichot, Bertrand and Verhelst, Théo and Le Borgne, Yann-Aël and He-Guelton, Liyun and Oblé, Frédéric and Bontempi, Gianluca},
+      journal={IEEE Access},
+      title={Transfer Learning Strategies for Credit Card Fraud Detection},
+      year={2021},
+      volume={9},
+      number={},
+      pages={114754-114766},
+      doi={10.1109/ACCESS.2021.3104472}
+    }
+
+
+- title: "Understanding telecom customer churn with machine learning: from prediction to causal inference"
+  authors: Théo Verhelst, Olivier Caelen, Jean-Christophe Dewitte, Bertrand Lebichot, Gianluca Bontempi
+  type: Conference paper
+  venue: "31st Benelux Conference on Artificial Intelligence and the 28th Belgian Dutch Conference on Machine Learning"
+  year: 2019
+  links:
+    - url: "https://doi.org/10.1007/978-3-030-65154-1_11"
+      name: Full paper
+  bibkey: verhelst2021understanding
+  bibtex: |
+    @InProceedings{verhelst2021understanding,
+      author={Verhelst, Th{\'e}o and Caelen, Olivier and Dewitte, Jean-Christophe and Lebichot, Bertrand and Bontempi, Gianluca},
+      editor={Bogaerts, Bart and Bontempi, Gianluca and Geurts, Pierre and Harley, Nick and Lebichot, Bertrand and Lenaerts, Tom and Louppe, Gilles},
+      title="Understanding Telecom Customer Churn with Machine Learning: From Prediction to Causal Inference",
+      booktitle="Artificial Intelligence and Machine Learning",
+      year="2020",
+      publisher="Springer International Publishing",
+      address="Cham",
+      pages="182--200",
+      isbn="978-3-030-65154-1"
+    }
+
+- title: "Churn Prediction and Causal Analysis on Telecom Customer Data"
+  authors: Théo Verhelst, supervised by Gianluca Bontempi
+  type: Master thesis
+  venue: Université Libre de Bruxelles
+  year: 2018
+  links:
+    - url: /assets/documents/theo_verhelst_master_thesis.pdf
+      name: PDF
+  bibkey: verhelst2018churn
+  bibtex: |
+    @thesis{verhelst2018churn,
+      type = {mathesis},
+      title = {Churn Prediction and Causal Analysis on Telecom Customer Data},
+      author = {Verhelst, Théo},
+      date = {2018},
+      institution = {{Université libre de Bruxelles}},
+      location = {{Brussels, Belgium}},
+      url = {http://127.0.0.1:4000/assets/documents/theo_verhelst_master_thesis.pdf},
+      urldate = {2024-04-09},
+      pagetotal = {83}
+    }

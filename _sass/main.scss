@@ -1,0 +1,166 @@
+/* Main */
+
+@import url("/assets/css/libertinus.css");
+
+
+$font-stack: "Libertinus Serif", serif;
+
+html, body {
+    font-family: $font-stack;
+    color: #000;
+    height: 100%;
+    background-color: #f4f4f6;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.bd-placeholder-img {
+    background-image: url("/assets/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+}
+
+.bd-placeholder-img-white {
+    background-image: url("../images/bg_white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+}
+
+.main-wrapper {
+    max-width: 42em;
+    min-height: 100%;
+    padding: 20px 40px;
+}
+
+main {
+    padding: 30px 0px;
+}
+
+h1, h2 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0;
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    font-family: "Libertinus Display", Times, serif;
+    font-size: 28pt;
+    color: black;
+    text-align: center;
+    padding: 0;
+  }
+
+  .nav-link {
+      padding: .2rem 0px;
+      margin: 0px 6px;
+      font-size: 14pt;
+      color: black;
+      background-color: transparent;
+      border-bottom: .2rem solid transparent;
+  }
+
+  .nav-link + .nav-link {
+      margin-left: 1rem;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+      border-bottom-color: rgba(0, 0, 0, .25);
+  }
+
+  .active {
+      color: black;
+      border-bottom-color: black;
+  }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+
+    .social-text {
+        font-size: small;
+    }
+}
+
+
+/* Landing page */
+
+.landing {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-size: 20;
+}
+
+.landing .btn-lg {
+    padding: .75rem 1.25rem;
+}
+
+
+
+/* CV list items */
+#cv-list dt {
+  margin-top: 20px;
+  margin-bottom: -8px;
+}
+
+#cv-list .cv-title {
+  float:left;
+}
+
+#cv-list hr {
+  border-top: 1px solid #bbb;
+  margin-left: 10px;
+}
+
+#cv-list .cv-rule {
+ display: block;
+ position:relative;
+ bottom:4px;
+ overflow: hidden;
+}
+
+/* Publications */
+
+.card-title, .card-subtitle {
+    font-weight: 500;
+}
+
+.card {
+    border-width: 0px;
+    padding-top: 0px;
+}
+
+.card-body {
+  padding: 12px 15px;
+}
+
+.card .venue {
+  font-style: italic;
+}
+
+p.card-text {
+  margin-bottom: 0; /* Counteract some margin added by the collapsed text for BibTeX */
+}
+
+.bibtex {
+  padding: 10px;
+  background-color: #EEEEEE;
+}
