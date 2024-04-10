@@ -2,45 +2,36 @@
 
 @import url("/assets/css/libertinus.css");
 
-
-$font-stack: "Libertinus Serif", serif;
-
 html, body {
-    font-family: $font-stack;
+    font-family: "Libertinus Serif", serif;;
     color: #000;
-    height: 100%;
     background-color: #f4f4f6;
+    height: 100%;
 }
 
 body {
-    display: -ms-flexbox;
-    display: flex;
+  display:-ms-flexbox;
+  display:flex
 }
 
-.bd-placeholder-img {
+#bd-placeholder-img, #bd-placeholder-img-white {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+#bd-placeholder-img {
     background-image: url("/assets/images/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width:100%;
 }
 
-.bd-placeholder-img-white {
-    background-image: url("../images/bg_white.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width:100%;
+#bd-placeholder-img-white {
+    background-image: url("/assets/images/bg_white.jpg");
 }
 
-.main-wrapper {
-    max-width: 42em;
-    min-height: 100%;
-    padding: 20px 40px;
-}
-
-main {
-    padding: 30px 0px;
+#main-wrapper {
+  max-width: 672px;
+  margin: auto;
 }
 
 h1, h2 {
@@ -51,52 +42,42 @@ h1, h2 {
 
 /* Navigation bar */
 
-.navbar {
-  padding: 0;
+.menu {
+  padding: 20px 0 30px 0;
+}
 
-  .container-fluid {
-    padding: 0;
-  }
-
-  .navbar-brand {
+.menu .menu-brand {
+    text-decoration: none;
     font-family: "Libertinus Display", Times, serif;
     font-size: 28pt;
     color: black;
-    text-align: center;
-    padding: 0;
-  }
+}
 
-  .nav-link {
-      padding: .2rem 0px;
-      margin: 0px 6px;
-      font-size: 14pt;
-      color: black;
-      background-color: transparent;
-      border-bottom: .2rem solid transparent;
-  }
+.menu .menu-link {
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    background-color: transparent;
+    border-bottom: .2rem solid transparent;
+}
 
-  .nav-link + .nav-link {
-      margin-left: 1rem;
-  }
+.menu .menu-link:hover,
+.menu .menu-link:focus {
+    border-bottom-color: rgba(0, 0, 0, .25);
+}
 
-  .nav-link:hover,
-  .nav-link:focus {
-      border-bottom-color: rgba(0, 0, 0, .25);
-  }
-
-  .active {
-      color: black;
-      border-bottom-color: black;
-  }
+.menu .active {
+    color: black;
+    border-bottom-color: black;
 }
 
 /* Footer */
 footer {
     text-align: center;
+}
 
-    .social-text {
-        font-size: small;
-    }
+footer .social-text {
+    font-size: small;
 }
 
 
@@ -116,6 +97,7 @@ footer {
 
 
 /* CV list items */
+
 #cv-list dt {
   margin-top: 20px;
   margin-bottom: -8px;

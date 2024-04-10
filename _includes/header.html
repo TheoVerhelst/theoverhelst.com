@@ -1,12 +1,15 @@
 <header>
-  <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid">
-      <div class="navbar-nav">
-        <a class="navbar-brand" href="/">Théo Verhelst</a>
+  <!-- The navbar class from Bootstrap is a mess, couldn't get buttons to wrap with it !-->
+  <nav class="container-fluid text-center menu">
+    <div class="row align-items-center">
+      <div class="col-sm-auto">
+        <a class="menu-brand" href="/">Théo Verhelst</a>
       </div>
-      <div class="navbar-nav">
-        <a class="nav-link{% if page.url == "/cv/" %} active{% endif %}" href="/cv/">CV</a>
-        <a class="nav-link{% if page.url == "/publications/" %} active{% endif %}" href="/publications/">Publications</a>
+      <div class="col-sm-auto ms-auto">
+        <a class="menu-link{% if page.url == "/cv/" %} active{% endif %}" href="/cv/">CV</a>
+      </div>
+      <div class="col-sm-auto">
+        <a class="menu-link{% if page.url == "/publications/" %} active{% endif %}" href="/publications/">Publications</a>
       </div>
     </div>
   </nav>
