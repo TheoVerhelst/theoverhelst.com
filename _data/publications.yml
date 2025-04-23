@@ -1,3 +1,22 @@
+- title: "Probability of collision in nonlinear dynamics by moment propagation"
+  authors: Théo Verhelst, Giacomo Acciarini, Dario Izzo, Francesco Biscani
+  type: Preprint
+  year: 2025
+  links:
+    - url: "https://arxiv.org/abs/2504.13935"
+      name: arXiv
+  bibkey: verhelst2025probability
+  bibtex: |
+    @misc{verhelst2025probability,
+      title={Probability of collision in nonlinear dynamics by moment propagation}, 
+      author={Théo Verhelst and Giacomo Acciarini and Dario Izzo and Francesco Biscani},
+      year={2025},
+      eprint={2504.13935},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY},
+      url={https://arxiv.org/abs/2504.13935}, 
+    }
+
 - title: "Causal and predictive modeling of customer churn: lessons learned from empirical and theoretical research"
   authors: Théo Verhelst, supervised by Gianluca Bontempi
   venue: Université Libre de Bruxelles
@@ -18,7 +37,6 @@
       location = {{Bruxelles}},
       pagetotal = {225}
     }
-
 
 - title: "Uplift vs. predictive modeling: a theoretical analysis"
   authors: Théo Verhelst, Robin Petit, Wouter Verbeke, Gianluca Bontempi
