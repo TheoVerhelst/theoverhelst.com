@@ -1,6 +1,7 @@
 - title: "Probability of collision in nonlinear dynamics by moment propagation"
   authors: Théo Verhelst, Giacomo Acciarini, Dario Izzo, Francesco Biscani
-  type: Preprint
+  type: Conference paper
+  venue: 9th European Conference on Space Debris
   year: 2025
   links:
     - url: "https://conference.sdo.esoc.esa.int/proceedings/sdc9/paper/287/SDC9-paper287.pdf"
