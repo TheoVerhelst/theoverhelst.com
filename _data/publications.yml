@@ -3,18 +3,24 @@
   type: Preprint
   year: 2025
   links:
+    - url: "https://conference.sdo.esoc.esa.int/proceedings/sdc9/paper/287/SDC9-paper287.pdf"
+      nqme: Full paper
     - url: "https://arxiv.org/abs/2504.13935"
       name: arXiv
   bibkey: verhelst2025probability
   bibtex: |
-    @misc{verhelst2025probability,
+    @InProceedings{verhelst2025probability,
       title={Probability of collision in nonlinear dynamics by moment propagation}, 
       author={Théo Verhelst and Giacomo Acciarini and Dario Izzo and Francesco Biscani},
       year={2025},
-      eprint={2504.13935},
-      archivePrefix={arXiv},
-      primaryClass={eess.SY},
-      url={https://arxiv.org/abs/2504.13935}, 
+      volume = {9},
+      number = {1},
+      booktitle={9th European Conference on Space Debris},
+      editor = {S. Lemmens and T. Flohrer and F. Schmitz},
+      address = {Bonn, Germany},
+      publisher = {ESA Space Debris Office},
+      month = {April},
+      url={https://conference.sdo.esoc.esa.int/proceedings/sdc9/paper/287/SDC9-paper287.pdf}, 
     }
 
 - title: "Causal and predictive modeling of customer churn: lessons learned from empirical and theoretical research"
