@@ -1,3 +1,22 @@
+- title: "Identifying counterfactual probabilities using bivariate distributions and uplift modeling"
+  authors: Théo Verhelst, Gianluca Bontempi
+  type: Preprint
+  venue: Submitted to the 34th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
+  year: 2025
+  links:
+    - url: "https://arxiv.org/abs/2512.08805"
+      name: arXiv
+  bibkey: verhelst2025probability
+  bibtex: |
+    @misc{verhelst2025identifying,
+      title={Identifying counterfactual probabilities using bivariate distributions and uplift modeling}, 
+      author={Verhelst, Théo and Bontempi, Gianluca},
+      year={2025},
+      eprint={2512.08805},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+    }
+
 - title: "Probability of collision in nonlinear dynamics by moment propagation"
   authors: Théo Verhelst, Giacomo Acciarini, Dario Izzo, Francesco Biscani
   type: Conference paper
