@@ -6,7 +6,7 @@
   links:
     - url: "https://arxiv.org/abs/2512.08805"
       name: arXiv
-  bibkey: verhelst2025probability
+  bibkey: verhelst2025identifying
   bibtex: |
     @misc{verhelst2025identifying,
       title={Identifying counterfactual probabilities using bivariate distributions and uplift modeling}, 
