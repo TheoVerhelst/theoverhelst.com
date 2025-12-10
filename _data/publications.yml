@@ -10,7 +10,7 @@
   bibtex: |
     @misc{verhelst2025identifying,
       title={Identifying counterfactual probabilities using bivariate distributions and uplift modeling}, 
-      author={Verhelst, Théo and Bontempi, Gianluca},
+      author={Verhelst, Th{\'e}o and Bontempi, Gianluca},
       year={2025},
       eprint={2512.08805},
       archivePrefix={arXiv},
@@ -31,7 +31,7 @@
   bibtex: |
     @InProceedings{verhelst2025probability,
       title={Probability of collision in nonlinear dynamics by moment propagation}, 
-      author={Théo Verhelst and Giacomo Acciarini and Dario Izzo and Francesco Biscani},
+      author={Verhelst, Th{\'e}o and Acciarini, Giacomo and Izzo, Dario and Biscani, Francesco},
       year={2025},
       volume = {9},
       number = {1},
@@ -57,7 +57,7 @@
       type = {phdthesis},
       title = {Causal and Predictive Modeling of Customer Churn: Lessons Learned from Empirical and Theoretical Research},
       shorttitle = {Causal and Predictive Modeling of Customer Churn},
-      author = {Verhelst, Théo},
+      author = {Verhelst, Th{\'e}o},
       date = {2024-01},
       institution = {{Université libre de Bruxelles}},
       location = {{Bruxelles}},
@@ -75,7 +75,7 @@
   bibtex: |
     @misc{verhelst2023uplift,
       title={Uplift vs. predictive modeling: a theoretical analysis},
-      author={Verhelst, Théo and Petit, Robin and Verbeke, Wouter and Bontempi, Gianluca},
+      author={Verhelst, Th{\'e}o and Petit, Robin and Verbeke, Wouter and Bontempi, Gianluca},
       year={2023},
       eprint={2309.12036},
       archivePrefix={arXiv},
@@ -96,7 +96,7 @@
   bibtex: |
     @misc{verhelst2023churn,
       title={A churn prediction dataset from the telecom sector: a new benchmark for uplift modeling},
-      author={Verhelst, Théo and Mercier, Denis and Shrestha, Jeevan and Bontempi, Gianluca},
+      author={Verhelst, Th{\'e}o and Mercier, Denis and Shrestha, Jeevan and Bontempi, Gianluca},
       year={2023},
       eprint={2312.07206},
       archivePrefix={arXiv},
@@ -160,7 +160,7 @@
   bibkey: lebichot2021transfer
   bibtex: |
     @article{lebichot2021transfer,
-      author={Lebichot, Bertrand and Verhelst, Théo and Le Borgne, Yann-Aël and He-Guelton, Liyun and Oblé, Frédéric and Bontempi, Gianluca},
+      author={Lebichot, Bertrand and Verhelst, Th{\'e}o and Le Borgne, Yann-Aël and He-Guelton, Liyun and Oblé, Frédéric and Bontempi, Gianluca},
       journal={IEEE Access},
       title={Transfer Learning Strategies for Credit Card Fraud Detection},
       year={2021},
@@ -206,7 +206,7 @@
     @thesis{verhelst2018churn,
       type = {mathesis},
       title = {Churn Prediction and Causal Analysis on Telecom Customer Data},
-      author = {Verhelst, Théo},
+      author = {Verhelst, Th{\'e}o},
       date = {2018},
       institution = {{Université libre de Bruxelles}},
       location = {{Brussels, Belgium}},
