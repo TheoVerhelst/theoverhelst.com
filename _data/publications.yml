@@ -88,19 +88,23 @@
   venue: "ECML PKDD 2023 Workshops - Workshop on Uplift Modeling and Causal Machine Learning for Operational Decision Making"
   year: 2023
   links:
-    - url: "https://upliftworkshop.ipipan.waw.pl/"
-      name: Workshop page
+    - url: "https://doi.org/10.1007/978-3-031-74640-6_21"
+      name: Full paper
     - url: "https://arxiv.org/abs/2312.07206"
       name: arXiv
-  bibkey: verhelst2023churn
+  bibkey: verhelst2025churn
   bibtex: |
-    @misc{verhelst2023churn,
-      title={A churn prediction dataset from the telecom sector: a new benchmark for uplift modeling},
+    @misc{verhelst2025churn,
+      title={A Churn Prediction Dataset from the Telecom Sector: A New Benchmark for Uplift Modeling},
       author={Verhelst, Th{\'e}o and Mercier, Denis and Shrestha, Jeevan and Bontempi, Gianluca},
-      year={2023},
-      eprint={2312.07206},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      editor={Meo, Rosa and Silvestri, Fabrizio},
+      year={2025},
+      publisher={Springer Nature Switzerland},
+      booktitle={Machine Learning and Principles and Practice of Knowledge Discovery in Databases}
+      address={Cham},
+      pages={292--299},
+      isbn={978-3-031-74640-6},
+      doi={10.1007/978-3-031-74640-6_21}
     }
 
 - title: "Partial counterfactual identification and uplift modeling: theoretical results and real-world assessment"
@@ -124,6 +128,7 @@
       pages={1--25},
       year={2023},
       publisher={Springer}
+      doi={10.1007/s10994-023-06317-w}
     }
 
 
@@ -133,20 +138,21 @@
   venue: 24th International Conference on Discovery Science
   year: 2021
   links:
-    - url: https://link.springer.com/chapter/10.1007/978-3-030-88942-5_4
+    - url: https://doi.org/10.1007/978-3-030-88942-5_4
       name: Full paper
   bibkey: verhelst2021predicting
   bibtex: |
     @InProceedings{verhelst2021predicting
       author={Verhelst, Th{\'e}o and Shrestha, Jeevan and Mercier, Denis and Dewitte, Jean-Christophe and Bontempi, Gianluca},
       editor={Soares, Carlos and Torgo, Luis},
-      title="Predicting Reach to Find Persuadable Customers: Improving Uplift Models for Churn Prevention",
+      title={Predicting Reach to Find Persuadable Customers: Improving Uplift Models for Churn Prevention},
       booktitle="Discovery Science",
       year="2021",
       publisher="Springer International Publishing",
       address="Cham",
       pages="44--54",
-      isbn="978-3-030-88942-5"
+      isbn="978-3-030-88942-5",
+      doi={10.1007/978-3-030-88942-5_4}
     }
 
 - title: "Transfer learning strategies for credit card fraud detection"
@@ -190,7 +196,8 @@
       publisher="Springer International Publishing",
       address="Cham",
       pages="182--200",
-      isbn="978-3-030-65154-1"
+      isbn="978-3-030-65154-1",
+      doi={10.1007/978-3-030-65154-1_11}
     }
 
 - title: "Churn Prediction and Causal Analysis on Telecom Customer Data"
