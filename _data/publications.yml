@@ -1,8 +1,8 @@
 - title: "Identifying counterfactual probabilities using bivariate distributions and uplift modeling"
   authors: Théo Verhelst, Gianluca Bontempi
   type: Preprint
-  venue: Submitted to the 34th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
-  year: 2025
+  venue: Accepted to the 34th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
+  year: 2026
   links:
     - url: "https://arxiv.org/abs/2512.08805"
       name: arXiv
@@ -63,7 +63,8 @@
       location = {{Bruxelles}},
       pagetotal = {225},
       url = {https://theoverhelst.com/assets/documents/theo_verhelst_phd_thesis.pdf},
-      urldate = {2025-12-15}
+      urldate = {2025-12-15},
+      doi={10.13140/RG.2.2.27105.98400}
     }
 
 - title: "Uplift vs. predictive modeling: a theoretical analysis"
