@@ -10,13 +10,18 @@
       name: arXiv
   bibkey: verhelst2025identifying
   bibtex: |
-    @misc{verhelst2025identifying,
-      title={Identifying counterfactual probabilities using bivariate distributions and uplift modeling}, 
-      author={Verhelst, Th{\'e}o and Bontempi, Gianluca},
-      year={2025},
-      eprint={2512.08805},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+    @inproceedings{verhelst2026identifying,
+      author    = {Verhelst, Th{\'e}o and Bontempi, Gianluca},
+      title = {Identifying counterfactual probabilities using bivariate distributions and uplift modeling},
+      booktitle = {Proceedings of the 34th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN 2026)},
+      editor    = {Verleysen, Michel},
+      pages     = {11--16},
+      year      = {2026},
+      month     = apr,
+      address   = {Louvain-la-Neuve, Belgium},
+      publisher = {i6doc.com},
+      isbn      = {978-2-87587-096-4},
+      doi       = {10.14428/ESANN/2026.ES2026-96},
     }
 
 - title: "Probability of collision in nonlinear dynamics by moment propagation"
